@@ -6,5 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-crossterm = "0.27.0"
-errno = "0.3.5"
+termion = "3.0.0"
+clap = "4.5.4"
+crossbeam = "0.8.4"
+crossbeam-utils = "0.8.19"
+libc = "0.2.153"
+signal-hook = "0.3.17"
